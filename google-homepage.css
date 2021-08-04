@@ -26,11 +26,31 @@ input {
   input[type="text"] { 
     padding-left: 45px;
   } 
-  #logo-google { 
+  #logo-google {  
     padding-top: 100px;
   } 
 
   .firstButton {  
     margin-left:600px ;
     margin-top: 20px;
+  } 
+
+  ul {  
+    display: block;
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0;
+  } 
+
+  li { 
+    float: right; 
+    
+  } 
+
+  li a {  
+    display:block; 
+    text-align: center; 
+    text-decoration: none;
+    padding: 5px 5px;  
+    color: black;
   }
