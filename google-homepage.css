@@ -3,11 +3,11 @@ img {
   display: flex;  
   position: relative; 
   padding-left: 600px; 
-  padding-top: 80px; 
+  padding-top: 80px;  
 } 
 input { 
   height: 40px;
-  width: 40%; 
+  width: 38%; 
   border-radius: 25px; 
   border: 0.5px solid rgb(221, 221, 221); 
   padding-left: 20px;   
@@ -15,36 +15,85 @@ input {
   margin-top: 20px;
 }
 
-  .material-icons { 
+  #search { 
   opacity: 0.3;  
   position:absolute; 
   padding: 15px; 
   margin-left: 410px; 
   margin-top: 18px;
+  }  
+
+  #apps { 
+    padding: 5px 5px;  
+    opacity: 0.6; 
   } 
+  .SignIn{ 
+    background-color: #1a73e8; 
+    color: white;
+    height: 20px; 
+    width: 80px; 
+    border-radius: 5%; 
+    text-align: center; 
+    padding-top: 10px; 
+    font-size: 12px; 
+    border: 1px solid transparent; 
+    
+  } 
+  .Gmail { 
+    padding: 10px;
+  } 
+  .Images { 
+    padding: 10px;
+  }
 
   input[type="text"] { 
     padding-left: 45px;
   } 
-  #logo-google {  
-    padding-top: 100px;
-  } 
+  .logo {  
+     padding-right: 500px; 
+     padding-left: 550px; 
+     padding-top: 140px; 
+     padding-bottom: 20px; 
 
-  .firstButton {  
+  }  
+
+  .firstButton {   
+    color: #3c4043;   
+    border: 1px solid transparent;
+    border-radius: 5%;
     margin-left:600px ;
-    margin-top: 20px;
-  } 
-
+    margin-top: 20px;  
+    margin-right: 10px;
+    height: 35px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    background-color: rgb(240, 240, 240);
+  }  
+  .secondButton {      
+    color: #3c4043;
+    border: 1px solid transparent;
+    border-radius: 4%;
+    margin-left:750 ;
+    margin-top: 20px;  
+    margin-right: 10px;
+    height: 35px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    background-color: rgb(240, 240, 240);
+  }
   ul {  
     display: block;
     list-style-type: none; 
     margin: 0; 
-    padding: 0;
+    padding: 0px;
   } 
 
   li { 
     float: right; 
-    
+    margin-left: 20px; 
+    font-size: 14px; 
+    color: #70757a;
+ 
   } 
 
   li a {  
@@ -53,4 +102,17 @@ input {
     text-decoration: none;
     padding: 5px 5px;  
     color: black;
-  }
+  } 
+
+.footer { 
+position: fixed; 
+left: 0; 
+bottom: 0;  
+height: 50px;
+width: 100%; 
+background-color: rgb(240, 240, 240); 
+} 
+.footerList { 
+  margin-top: 17px; 
+  padding: 0px 20px 0px 10px;
+}

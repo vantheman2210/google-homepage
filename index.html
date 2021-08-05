@@ -1,29 +1,45 @@
 <!DOCTYPE html>
-<html lang="en"> 
-  <link rel="stylesheet" type="text/css" href="/google-homepage.css" /> 
-  <head><link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="/google-homepage.css" />
+
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
-<body>   
+
+<body>
   <div>
-    <ul> 
-      <li><a href="signIn.asp">Sign In</a></li>
-      <li><a href="Images.asp">Images</a></li> 
-      <li><a href="gmail.asp">Gmail</a></li> 
+    <ul>
+      <li><a class="SignIn" href="signIn.asp">Sign In</a></li> 
+      <li><i id="apps" class="material-icons">apps</i></li>
+      <li><a class="Images" style="font-size: 13px" href="Images.asp">Images</a></li>
+      <li><a class="Gmail"style="font-size: 13px" href="gmail.asp">Gmail</a></li>
     </ul>
   </div>
-      <div class="google-logo"> 
-        <img class="logo" alt="Google logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-      </div>  
-      <div>
-      <i class="material-icons" style="font-size: 20px">search</i>
-       <input type="text"> 
-    </div> 
-    <div>
-      <div> 
-        <button class="firstButton" type="submit">Google Search</button> 
-        <button class="secondButton" type="submit">I'm Feeling Lucky</button>
-      </div> 
+  <div class="google-logo">
+    <img class="logo" alt="Google logo"
+      src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+  </div>
+  <div>
+    <i id="search" class="material-icons" style="font-size: 20px">search</i>
+    <input type="text">
+  </div>
+  <div>
+    <div> 
+     <button class="firstButton" type="submit">Google Search</button>
+      <button class="secondButton" type="submit">I'm Feeling Lucky</button>
     </div>
-  
+  </div>
+  <div class="footer">
+    <ul class="footerList">
+      <li style="float:left">About</li>
+      <li style="float:left">Advertising</li>
+      <li style="float:left">Business</li>
+      <li style="float:left">How Search works</li>
+      <li>Settings</li>
+      <li>Terms</li>
+      <li>Privacy</li>
+    </ul>
+  </div>
 </body>
+
 </html>
